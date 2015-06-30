@@ -4,11 +4,11 @@ With this tiny script, you can check whether you have to handle your app permiss
 
 ## What is app permissions?
 
-Read [Android Developers](http://developer.android.com/preview/features/runtime-permissions.html).
+Dive into [Android Developers](http://developer.android.com/preview/features/runtime-permissions.html).
 
 ## Install
 
-Just clone or download the python file.
+Just clone this repo or download the python file.
 
 ## Usage
 
@@ -18,6 +18,7 @@ Only you have to do is just executing below command on your root app directory.
 $ cd <root your app>
 $ python permissions_checker.py
 
+> Searching file: /Users/hoge/test/data/AndroidManifest.xml
 > Unfortunately, you have to handle these permissions in MNC.
 > android.permission.READ_CALENDAR
 > android.permission.WRITE_CALENDAR
