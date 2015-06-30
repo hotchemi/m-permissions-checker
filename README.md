@@ -24,6 +24,8 @@ $ python permissions_checker.py
 > android.permission.CAMERA
 ```
 
+> Of course this script excludes build output directory like `build`.
+
 ## Support
 
 Over Python 2.7.
