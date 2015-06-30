@@ -1,10 +1,14 @@
 # m-permissions-checker
 
-With this tiny script, you can check whether you have to handle your app permission or not in Android M.
+With this tiny script, you can check whether you have to handle your app permission or not in [Android M](http://developer.android.com/preview/index.html).
 
 ## What is app permissions?
 
-Please read [Android Developers](http://developer.android.com/preview/features/runtime-permissions.html).
+Read [Android Developers](http://developer.android.com/preview/features/runtime-permissions.html).
+
+## Install
+
+Just clone or download the python file.
 
 ## Usage
 
