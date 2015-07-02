@@ -1,4 +1,4 @@
-# m-permissions-checker
+# m-permissions-checker [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-m--permissions--checker-green.svg?style=flat)](https://android-arsenal.com/details/1/2074)
 
 With this tiny script, you can check whether you have to handle your app permission or not in [Android M](http://developer.android.com/preview/index.html).
 
@@ -29,7 +29,7 @@ $ python permissions_checker.py
 
 ## Support
 
-Over Python 2.7.
+Python 2.7.
 
 ## Contribute
 
