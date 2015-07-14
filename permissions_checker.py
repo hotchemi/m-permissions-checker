@@ -6,6 +6,8 @@ from xml.etree import ElementTree
 
 
 BLACK_LIST = (
+    'android.permission.READ_EXTERNAL_STORAGE',
+    'android.permission.WRITE_EXTERNAL_STORAGE',
     'android.permission.READ_CALENDAR',
     'android.permission.WRITE_CALENDAR',
     'android.permission.CAMERA',
