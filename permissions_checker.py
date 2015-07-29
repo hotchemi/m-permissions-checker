@@ -17,7 +17,7 @@ BLACK_LIST = (
     'android.permission.WRITE_PROFILE',
     'android.permission.ACCESS_FINE_LOCATION',
     'android.permission.ACCESS_COARSE_LOCATION',
-    'android.permission.RECORD_AUDIO'
+    'android.permission.RECORD_AUDIO',
     'android.permission.READ_PHONE_STATE',
     'android.permission.CALL_PHONE',
     'android.permission.READ_CALL_LOG',
