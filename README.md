@@ -8,7 +8,7 @@ Dive into [Android Developers](http://developer.android.com/preview/features/run
 
 ## Install
 
-Just clone this repo or download the python file.
+Just clone this repository or download the python file.
 
 ## Usage
 
@@ -26,6 +26,10 @@ $ python permissions_checker.py
 ```
 
 > Of course this script excludes build output directory like `build`.
+
+## Caution
+
+> This script doesn't check custom permission's stuff. So please check them by your hand.
 
 ## Support
 
