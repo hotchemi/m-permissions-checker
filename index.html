@@ -1,38 +1,52 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>M-permissions-checker by hotchemi</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">M-permissions-checker</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/hotchemi/m-permissions-checker" class="btn">View on GitHub</a>
-      <a href="https://github.com/hotchemi/m-permissions-checker/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/hotchemi/m-permissions-checker/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html>
 
-    <section class="main-content">
-      <h1>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="M-permissions-checker : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>M-permissions-checker</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/hotchemi/m-permissions-checker">View on GitHub</a>
+
+          <h1 id="project_title">M-permissions-checker</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/hotchemi/m-permissions-checker/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/hotchemi/m-permissions-checker/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
 <a id="m-permissions-checker" class="anchor" href="#m-permissions-checker" aria-hidden="true"><span class="octicon octicon-link"></span></a>m-permissions-checker</h1>
+
+<p><a href="https://android-arsenal.com/details/1/2074"><img src="https://img.shields.io/badge/Android%20Arsenal-m--permissions--checker-green.svg?style=flat" alt="Android Arsenal"></a></p>
 
 <p>With this tiny script, you can check whether you have to handle your app permission or not in <a href="http://developer.android.com/preview/index.html">Android M</a>.</p>
 
 <h2>
 <a id="what-is-app-permissions" class="anchor" href="#what-is-app-permissions" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is app permissions?</h2>
 
-<p>Read <a href="http://developer.android.com/preview/features/runtime-permissions.html">Android Developers</a>.</p>
+<p>Dive into <a href="http://developer.android.com/preview/features/runtime-permissions.html">Android Developers</a>.</p>
 
 <h2>
 <a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
 
-<p>Just clone or download the python file.</p>
+<p>Just clone this repository or download the python file.</p>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
@@ -42,6 +56,7 @@
 <div class="highlight highlight-sh"><pre>$ <span class="pl-c1">cd</span> <span class="pl-k">&lt;</span>root your app<span class="pl-k">&gt;</span>
 $ python permissions_checker.py
 
+<span class="pl-k">&gt;</span> Searching file: /Users/hoge/test/data/AndroidManifest.xml
 <span class="pl-k">&gt;</span> Unfortunately, you have to handle these permissions <span class="pl-k">in</span> MNC.
 <span class="pl-k">&gt;</span> android.permission.READ_CALENDAR
 <span class="pl-k">&gt;</span> android.permission.WRITE_CALENDAR
@@ -52,9 +67,14 @@ $ python permissions_checker.py
 </blockquote>
 
 <h2>
+<a id="caution" class="anchor" href="#caution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Caution</h2>
+
+<p>This script doesn't check custom permission's stuff. So please check them by your hand.</p>
+
+<h2>
 <a id="support" class="anchor" href="#support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support</h2>
 
-<p>Over Python 2.7.</p>
+<p>Python 2.7.</p>
 
 <h2>
 <a id="contribute" class="anchor" href="#contribute" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribute</h2>
@@ -66,16 +86,18 @@ $ python permissions_checker.py
 <li>Push to the branch (<code>git push origin my-new-feature</code>)</li>
 <li>Create new Pull Request</li>
 </ol>
+      </section>
+    </div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/hotchemi/m-permissions-checker">M-permissions-checker</a> is maintained by <a href="https://github.com/hotchemi">hotchemi</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">M-permissions-checker maintained by <a href="https://github.com/hotchemi">hotchemi</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
+    </div>
 
-    </section>
+    
 
-  
   </body>
 </html>
-
