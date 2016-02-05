@@ -2,11 +2,11 @@
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-m--permissions--checker-green.svg?style=flat)](https://android-arsenal.com/details/1/2074)
 
-With this tiny script, you can check whether you have to handle your app permission or not in [Android M](http://developer.android.com/preview/index.html).
+With this tiny script, you can check whether you have to handle your app's permission or not in [Android M](http://developer.android.com/preview/index.html).
 
-## What is app permissions?
+## What is Runtime Permissions?
 
-Dive into [Android Developers](http://developer.android.com/preview/features/runtime-permissions.html).
+For the detail, please dive into [Android Developers](http://developer.android.com/preview/features/runtime-permissions.html).
 
 ## Install
 
@@ -31,7 +31,7 @@ $ python permissions_checker.py
 
 ## Caution
 
-This script doesn't check custom permission's stuff. So please check them by your hand.
+This script doesn't check custom permission's dangerousness. So please check them by your hand.
 
 ## Support
 
