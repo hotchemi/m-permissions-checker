@@ -14,13 +14,12 @@ Just clone this repository or download the python file.
 
 ## Usage
 
-Only you have to do is just executing below command on your root app directory.
+Simply point the script at your root app directory:
 
 ```sh
-$ cd <root your app>
-$ python permissions_checker.py
+$ python permissions_checker.py /home/user/my-app
 
-> Searching file: /Users/hoge/test/data/AndroidManifest.xml
+> Searching file: /home/user/my-app/src/main/AndroidManifest.xml
 > Unfortunately, you have to handle these permissions in MNC.
 > android.permission.READ_CALENDAR
 > android.permission.WRITE_CALENDAR
