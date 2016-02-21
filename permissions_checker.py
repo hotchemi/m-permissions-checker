@@ -2,6 +2,7 @@
 # !/usr/bin/env python
 
 import os
+import sys
 from xml.etree import ElementTree
 
 
@@ -38,7 +39,8 @@ TARGET_FILE_NAME = 'AndroidManifest.xml'
 def _manifest_files():
     manifests = []
     exclude = "build"
-    for root, dirs, files in os.walk(os.getcwd()):
+    workdir = sys.argv[1] if len(sys.argv) > 1 else os.getcwd()
+    for root, dirs, files in os.walk(workdir):
         if exclude in dirs:
             dirs.remove(exclude)
         for file in files:
